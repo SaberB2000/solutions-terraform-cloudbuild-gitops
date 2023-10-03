@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "skilful-mercury-400917-tfstate"
     prefix = "env/dev"
   }
 }
